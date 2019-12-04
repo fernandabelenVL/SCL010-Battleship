@@ -1,13 +1,23 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View} from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button, Avatar, Icon, Overlay} from 'react-native-elements';
 
 class LoginScreen extends React.Component {
    render() {
       return (
          <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+         
 	         <Text style={styles.mainTitle}>Bienvenido</Text>
-	         <Text style={styles.subtitle}>Usuario</Text>
+	         
+	         <Avatar
+				   rounded
+				   size="xlarge"
+				   icon={{name: 'user', type: 'font-awesome'}}
+				   onPress={() => console.log("Works!")}
+				   activeOpacity={0.7}
+				   showEditButton
+				/>
+				<Text style={styles.userName}>Usuario</Text>
 	         
 	         <View style={{marginTop: 30}}>
 	            <Button 
@@ -15,11 +25,20 @@ class LoginScreen extends React.Component {
 	               type="outline"
 	               buttonStyle={{marginBottom: 10}}
 	            />
-					<Button title="Jugar contra la computadora" type="outline" style={{marginBottom:10}}/>
-	            <Button title="Invita a un amigo a jugar" style={{marginBottom:10}}/>
+					<Button title="Jugar contra la computadora" type="outline" buttonStyle={{marginBottom: 10}}/>
+	            <Button title="Invita a un amigo a jugar" buttonStyle={{marginBottom: 10}}/>
 	         </View>
           
-         
+				<Icon
+				  raised
+				  name='question'
+				  type='font-awesome'
+				  color='#1F89DC'
+				  onPress={() => console.log('Cómo jugar')}
+				/>
+				
+				
+				
          </View>
       );
    }
@@ -45,11 +64,13 @@ const styles = StyleSheet.create({
 	
 	mainTitle: {
 		fontSize: 20,
+		marginBottom: 20
 	},
 	
-	subtitle: {
+	userName: {
 		fontSize: 25,
 		color: "#1F89DC",
+		marginVertical: 15
 	}
 	
  });
