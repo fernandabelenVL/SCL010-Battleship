@@ -10,12 +10,12 @@
 * [6. Benchmark](#6-benchmark)
 * [7. Historias de Usuario](#7-historias-de-usuario)
 * [8. Diagrama de Flujo](#8-diagrama-de-flujo)
-* [9. Prototipado](#9-prototipado)
-* [10. Look & Feel](#10-look-&-feel)
+<!-- * [9. Prototipado](#9-prototipado)
+* [10. Look & Feel](#10-look-&-feel) -->
 
 ## 1. Preámbulo
 
-<img src=" " width="100%"/>
+<!-- <img src=" " width="100%"/> -->
 
 Los videojuegos son una verdadera prueba cuando se trata de tecnología. Uno de los factores de éxito para el equipo de android, por ejemplo, fue que pudiesen tener un juego corriendo en los primeros teléfonos. La idea era que si un juego podía ejecutarse en la plataforma, un programa más simple con pantallas mucho más fáciles de trabajar que solo tuviese botones y texto debería funcionar aun mejor.
 
@@ -68,6 +68,22 @@ El desarrollo se realiza a través de React JS, enfocado a dispositivos móviles
 
 ## 5. Definición de Usuario
 
+Nuestro usuario Objetivo son niños y jóvenes de entre 6 y 16 años, los cuales tienen interés en los videojuegos dentro de dispositivos móviles o tablets.
+
+Ésta segmento corresponde a una generación con alta cultura tecnológica en donde la inmediatez, la interacción y la fluidez de las aplicaciones a demás de su diseño cumplen un rol fundamental dentro del éxito de las mismas.
+
+Para comunicarse, socializar y entretenerse hacen uno de su teléfono celular en la mayoría de sus tareas diarias, siendo un elemento esencial dentro de su rutina. Desde muy temprana edad utilizan teléfonos inteligentes ya sea por motivos educacionales o de recreación, y a medida avanza la edad aumentan su usos como plataforma principal de comunicación e interacción.
+
+De acuerdo a un estudio realizado por “Google Consumer Barometer” publicado en el año 2018, el 82% de la población de chile prefiere su smartphone para navegar en internet, ver videos y jugar, siendo uno de los países con más alta de teléfonos células por habitante (aproximadamente 2,2 teléfonos por persona), esto denota la exponencial alza del uso de celulares en los últimos 5 año, y en consecuencia de esto último , el uso del computador de escritorio se ha visto desplazado notoriamente en los últimos años.
+
+<img 
+src="https://firebasestorage.googleapis.com/v0/b/scl010-battleship-f2180.appspot.com/o/Images%2Fcelulares-chile.png?alt=media&token=89343e10-e26f-4a64-b4e3-03fb54ce1b0a" 
+width="100%"/>
+
+Ver Página de estudio: [Google Consumer Barometer](https://www.thinkwithgoogle.com/intl/es-419/recursos-y-herramientas/m%C3%B3vil/consumer-barometer-study-2017-year-mobile-majority/)
+
+<br>
+
 <br>
 
 ## 6. Benchmark
@@ -89,12 +105,16 @@ Ver Juego: Conceptis Seabattle [iOs](https://apps.apple.com/us/app/conceptis-sea
 
 ### Conclusiones:
 
-A partir de las observaciones extraídas del análisis de diferentes plataformas de juego Battleship, tanto en versiones de computador como mobile, podemos extraer las siguientes conclusiones:
-* Conclusión 1
-* Conclusión 2
-* Conclusión 3
-
+* A partir de las observaciones extraídas del análisis de diferentes plataformas de juego Battleship, tanto en versiones de computador como mobile, podemos extraer las siguientes conclusiones:
+A partir del análisis de las juegos anteriormente mencionados podemos determinar que el tema de la estética, arquitectura de la información y diseño de la interface de la aplicación son elementos primordiales en el momento de crear las funcionalidades y vistas del juego. 
+Es necesario determinar el orden de cada elemento y su jerarquía cuidadosamente para que no sea una vista engorrosa en la pantalla y todas las funciones queden explícitamente indicadas.
 <br>
+* A partir de lo anterior, las aplicaciones dentro de celular (o tablet) cumplen mayormente el con el concepto de navegación, fluidez interacciones y animaciones de manera fluida, dejando en claro la finalidad de juego por turnos.
+Según esto último concluimos que la para la construcción de nuestro juego, la mejor solución es diseñarlo en funciones de pantallas celulares, ya que nuestro público objetivo se centra en una audiencia joven que en su mayoría no tiene acceso a computadores de escritorio pero si cuentan con un teléfono celular inteligente con el que interactúan diariamente en su cotidiano.
+<br>
+* Es aquí donde vemos la oportunidad de desplazar el modo clásico de Battleship, ya sea en modo tablero o en modo escritorio, hacia una plataforma móvil desarrollada en React Native, que sea de fácil acceso para nuestro público objetivo, permita la inmediatez y altos niveles de interacción.
+
+
 
 ## 7. Historias de Usuario
 
@@ -155,7 +175,7 @@ _Criterios de consideración:_
 <br/>
 <br/>
 
-## 9. Prototipado
+<!-- ## 9. Prototipado
 
 * Sketch
 * Wireframe
@@ -164,12 +184,13 @@ _Criterios de consideración:_
 
 ## 10. Look & Feel
 
-<br>
+<br> -->
 
 ## Links de Interés
 
 * [Tablero Trello](https://trello.com/b/myWBjzhV/battleship)
 * [Concrete Latinoamérica junto a Laboratoria](https://medium.com/concretelatinoam%C3%A9rica/desaf%C3%ADo-concrete-laboratoria-19e0b1b66b45)
+* [Google Consumer Barometer](https://www.thinkwithgoogle.com/intl/es-419/recursos-y-herramientas/m%C3%B3vil/consumer-barometer-study-2017-year-mobile-majority/)
 
 ## Desarrollado por:
 * Daniela Quintana Martinez: [Github](https://github.com/daniela-quintana) - [LinkedIn](https://www.linkedin.com/in/daniela-quintana/)
